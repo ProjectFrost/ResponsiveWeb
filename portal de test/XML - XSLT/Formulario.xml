@@ -1,0 +1,59 @@
+<!DOCTYPE formulario SYSTEM "Formulario.dtd">
+<?xml-stylesheet type="text/xsl" href="Formulario.xslt"?>
+<formulario>
+	<pregunta>
+		¿Qué significa XML?
+	</pregunta>
+	<respuesta>Extensible Markup Language</respuesta>
+	<respuesta>Extra Multi-Language</respuesta>
+	<respuesta>Extended Markup Language</respuesta>
+	<respuesta>Experimental Markup Language</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes afirmaciones es verdadera sobre XML?
+	</pregunta>
+	<respuesta>XML es un lenguaje de programación.</respuesta>
+	<respuesta>XML es un estándar para el intercambio de datos estructurados.</respuesta>
+	<respuesta>XML solo puede ser utilizado en entornos web.</respuesta>
+	<respuesta>XML solo puede almacenar datos de tipo texto.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes declaraciones describe mejor la estructura de un documento XML?
+	</pregunta>
+	<respuesta>Un documento XML está compuesto por etiquetas HTML.</respuesta>
+	<respuesta>Un documento XML está compuesto por una estructura jerárquica de elementos etiquetados.</respuesta>
+	<respuesta>Un documento XML solo puede contener datos numéricos.</respuesta>
+	<respuesta>Un documento XML no puede contener atributos.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes opciones es una ventaja de usar XML?
+	</pregunta>
+	<respuesta>XML es un lenguaje de programación de alto rendimiento.</respuesta>
+	<respuesta>XML solo se puede utilizar en sistemas operativos Windows.</respuesta>
+	<respuesta>XML permite el intercambio de datos entre diferentes plataformas y sistemas.</respuesta>
+	<respuesta>XML solo se utiliza para el diseño de páginas web.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes afirmaciones es cierta sobre los espacios de nombres en XML?
+	</pregunta>
+	<respuesta>Los espacios de nombres no son compatibles con XML.</respuesta>
+	<respuesta>Los espacios de nombres permiten la mezcla de diferentes lenguajes de marcado en un documento XML.
+	</respuesta>
+	<respuesta>Los espacios de nombres solo se utilizan en documentos XML muy largos.</respuesta>
+	<respuesta>Los espacios de nombres solo se utilizan en documentos XML generados por bases de datos.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes afirmaciones es verdadera sobre los atributos en XML?
+	</pregunta>
+	<respuesta>Los atributos solo pueden tener valores de tipo cadena de caracteres.</respuesta>
+	<respuesta>Los atributos no se utilizan en XML.</respuesta>
+	<respuesta>Los atributos se definen dentro de las etiquetas de apertura de un elemento.</respuesta>
+	<respuesta>Los atributos solo se utilizan para indicar el tipo de dato de un elemento.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes afirmaciones es cierta sobre la validación en XML?
+	</pregunta>
+	<respuesta>La validación en XML garantiza que los datos estén encriptados.</respuesta>
+	<respuesta>La validación en XML verifica si un documento XML cumple con un conjunto de reglas definidas por un esquema o una DTD.</respuesta>
+	<respuesta>La validación en XML solo se aplica a los documentos generados por bases de datos.</respuesta>
+	<respuesta>La validación en XML solo se realiza manualmente, no hay herramientas automatizadas disponibles.</respuesta>
+	<pregunta>
+		¿Cuál de las siguientes tecnologías se utiliza para transformar un documento XML en otro formato, como HTML o PDF?
+	</pregunta>
+	<respuesta>XSLT (Extensible Stylesheet Language Transformations)</respuesta>
+	<respuesta>XML-RPC (XML Remote Procedure Call)</respuesta>
+</formulario>

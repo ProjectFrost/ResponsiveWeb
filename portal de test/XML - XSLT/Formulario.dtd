@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado por XMLSpy v2023 rel. 2 (x64) (http://www.altova.com/es) -->
+<!ELEMENT pregunta (#PCDATA)>
+<!ELEMENT respuesta (#PCDATA)>
+<!ELEMENT formulario (pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+, pregunta, respuesta+)>
