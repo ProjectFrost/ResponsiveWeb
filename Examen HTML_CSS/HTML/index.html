@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWF</title>
+    <style>
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #1b1b32;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            color: #000;
+            background-color: white;
+        }
+
+        #logo {
+            background-color: white;
+            aspect-ratio: 35/4;
+            padding: 0.4rem;
+            border: 1px solid whitesmoke;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            z-index: 1;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f5f6f7;
+        }
+
+        section {
+            width: 80%;
+            margin: 0 auto 0;
+            max-width: 600px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 10px;
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 16px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 100px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="imagenes/logo.png" alt="logo_WWF" id="logo">
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Adopción de especies</li>
+                    <li><a href="./formulario.html" target="_blank">Socios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Ayúdanos a proteger para evitar su extinción</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente soluta eum aspernatur
+                assumenda.
+                Ex dolorum nam at quas reprehenderit debitis, hic voluptate accusamus voluptatum quo porro, adipisci
+                ipsam
+                odio.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore inventore corrupti aperiam
+                rem
+                dolores commodi, omnis alias dicta ut. Cum, officiis quaerat sint incidunt neque illo dolor tenetur ab?
+            </p>
+            <div class="gallery">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre1">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre2">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre3">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre4">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre5">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre6">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre7">
+                <img src="./imagenes/tigre_solo_in.png" alt="tigre8">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

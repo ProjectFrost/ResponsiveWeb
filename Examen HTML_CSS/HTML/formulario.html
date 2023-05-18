@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #1b1b32;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            color: #000;
+            background-color: white;
+        }
+
+        #logo {
+            background-color: white;
+            aspect-ratio: 35/4;
+            padding: 0.4rem;
+            border: 1px solid whitesmoke;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            z-index: 1;
+        }
+
+        /*formulario*/
+        .formulario {
+            padding-top: 20px;
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        h1 {
+            color: cornflowerblue;
+            font-size: min(5vw, 1.2em);
+            text-align: center;
+            width: 50%;
+            margin: 50px auto 0px;
+        }
+
+        input {
+            font-size: 11px;
+        }
+
+        fieldset {
+            border: 0;
+            width: 100%;
+            margin: 20px 0;
+        }
+        body {
+            margin: 0;
+            padding: 20 auto;
+            font-family: sans-serif;
+            background-color: #f5f6f7;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="imagenes/logo.png" alt="logo_WWF" id="logo">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Adopción de especies</li>
+                        <li><a href="./formulario.html" target="_blank">Socios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fugiat excepturi harum veniam sed
+            similique
+            quis explicabo illum, ex modi perspiciatis consequuntur expedita enim earum vel obcaecati et nihil aut!
+        </h1>
+        <div class="formulario">
+            <form action="">
+                <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre" required></label>
+                <label for="apellido1">Primer Apellido: <input type="text" name="apellido1" id="apellido1"
+                        required></label>
+                <label for="apellido2">Segundo Apellido: <input type="text" name="apellido2" id="apellido2"></label>
+                <fieldset class="direccion">
+                    <legend>Tipo de vía</legend>
+                    <select name="tipo-direccion" id="tipo-direccion" required>
+                        <option value="">(Seleccione un tipo de via)</option>
+                        <option value="1">Calle</option>
+                        <option value="2">Via</option>
+                    </select>
+                    <input type="text" name="nombre-calle" id="nombre-calle" required>
+                </fieldset>
+                <label for="num">Número,piso, etc: <input type="text" name="num" id="num" required></label>
+                <label for="cp">CP: <input type="text" name="cp" id="cp" required></label>
+                <label for="población">Población: <input type="text" name="población" id="población" required></label>
+                <label for="fijo">Tel. fijo: <input type="tel" name="fijo" id="fijo"></label>
+                <label for="movil">Móvil: <input type="tel" name="movil" id="movil"></label>
+                <label for="email">Email: <input type="email" name="email" id="email"></label>
+                <label for="mayor-edad">¿Es mayor de edad?<input type="checkbox" name="mayor-edad" id="mayor-edad"
+                        value="si-mayor"></label>
+                <label for="dni-nif">DNI/NIF: <input type="text" name="dni-nif" id="dni-nif"
+                        placeholder="Ej. 12345678X"></label>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
